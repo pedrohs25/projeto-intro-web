@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Mini-Pokedex</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mini-Pokedex</h1>
+        
+    </header>
+    <main class="container">
+
+        <div class="search-container">
+            <input class="search-bar" id="search-bar" type="text" placeholder="Procura por Pokemon">
+            <button type="submit" class="search-button" onclick="buscaPokemon()">Buscar</button>
+        </div>
+        <section class="card-container">
+            <section id="card">
+
+                <div id="poke-imagem"><img class="pikachu" src="./img/pikachu.png" alt="imagem do pikachu"></div>
+                <ul>
+                    <li id="nome do pokemon"><a href="https://www.pokemon.com/br/pokedex/pikachu" target="_blank">Nome: 
+                        Pikachu</a></li>
+                    <li><strong>Tipo:</strong> Elétrico</li>
+                    <li>Número na Pokedex: 25</li>
+                    <li>Evolui? Sim</li>
+                    <li>Ataques: Ataque Rápido, Investida Trovão, Cauda de Ferro, Choque do Trovão</li>
+
+                </ul>
+            </section>
+
+            <section id="card">
+                <div id="poke-imagem"><img class="pidgey" src="./img/Pidgey.png" alt="imagem do Pidgey"></div>
+                <ul>
+                    <li id="nome do pokemon"><a href="https://www.pokemon.com/br/pokedex/pidgey" target="_blank">Nome:
+                        Pidgey</a></li>
+                    <li><strong>Tipo:</strong> Normal e Vôo</li>
+                    <li>Número na Pokedex: 16</li>
+                    <li>Evolui? Sim</li>
+                    <li>Ataques: Bicada, Ventania, Ataque Rápido, Ataque de Asa</li>
+
+                </ul>
+            </section>
+
+            <section id="card">
+                <div id="poke-imagem"><img class="charmander" src="./img/charmander.png" alt="imagem do charmander "></div>
+                <ul>
+                    <li id="nome do pokemon"><a href="https://www.pokemon.com/br/pokedex/charmander" target="_blank">Nome: 
+                        Charmander </a></li>
+                    <li><strong>Tipo:</strong> Fogo</li>
+                    <li>Número na Pokedex: 04</li>
+                    <li>Evolui? Sim</li>
+                    <li>Ataques: Rosnar,Presas de Fogo, Garras de Metal, Lança-Chamas</li>
+
+                </ul>
+            </section>
+            <section id="card">
+                <div id="poke-imagem"><img class= "bulbasaur" src="./img/Bulbasaur.png" alt="imagem do bulbasaur"></div>
+                <ul>
+                    <li id="nome do pokemon"><a href="https://www.pokemon.com/br/pokedex/bulbasaur" target="_blank">Nome: 
+                        Bulbasaur</a>
+                    </li>
+                    <li><strong>Tipo:</strong> Grama e Tóxico</li>
+                    <li>Número na Pokedex: 01</li>
+                    <li>Evolui? Sim</li>
+                    <li>Ataques: Folhas de Navalha, Cavar, Chicotes de Vinha, Esfera de Energia</li>
+
+                </ul>
+            </section>
+            <section id="card">
+                <div id="poke-imagem"><img class="eevee" src="./img/Eevee.png" alt="imagem do eevee"></div>
+                <ul>
+                    <li id="nome do pokemon"><a href="https://www.pokemon.com/br/pokedex/eevee" target="_blank">Nome: 
+                        Eevee</a></li>
+                    <li><strong>Tipo:</strong> Normal</li>
+                    <li> Número na Pokedex: 133</li>
+                    <li>Evolui? Sim</li>
+                    <li>Ataques: Ataque Rápido, Investida, Golpe Baixo, Proteção</li>
+
+                </ul>
+            </section>
+        </section>
+    </main>
+    <footer class="bg-dark text-center text-white" style="align-items: center;">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/peedroh25"
+                    target="_blank" role="button"><i class="bi bi-facebook"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/pedrohs_25"
+                    target="_blank" role="button"><i class="bi bi-twitter"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/pedrohs_25/"
+                    target="_blank" role="button"><i class="bi bi-instagram"
+                        style="background-color: rgb(243, 118, 22); border-radius:100%; padding: 5px;"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/pedrohs25/" target="_blank"
+                    role="button"><i class="bi bi-linkedin"
+                        style="padding: 5px; background-color: rgb(71, 89, 186); border-radius:100%;"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/pedrohs25" target="_blank"
+                    role="button"><i class="bi bi-github"
+                        style="padding: 5px; background-color: rgb(17, 15, 15); border-radius:100%;"></i></a>
+
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); text-align: center;">
+            © 2022 Copyright:
+            <a class="text-white" href="#" style="padding: 5px;"> Pedro Henrique</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+
+</html>
